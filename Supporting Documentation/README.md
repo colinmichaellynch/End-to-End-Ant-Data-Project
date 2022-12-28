@@ -1,0 +1,3 @@
+# Supporting Documentation 
+
+This project represents the bulk of my research for my Ph.D. dissertation. My dissertation is broken down into 3 chapters, as shown in the prospectus. The paper "Choosing when and how long to sample: Estimating the distribution of behavioral states in social data on a sampling budget" is my first chapter. The analytics shown in Part 3 will go into Chapter 2, but that project is ongoing. That chapter has 2 groups of ant colonies, some young and old colonies. The data presented here is only from the young colonies, as data for the older colonies is still being collected. Work for Chapter 3 has not yet been done. 
