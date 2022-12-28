@@ -19,3 +19,19 @@ In order to use the sampling technique developed in Part 1, I took behavioral re
 ![](/Images/userInterface.png)
 
 * After the spatial analysis software outputs a new CSV, the RA opens it and watches the high resolution video. They then record behavior into Excel. 
+
+### Deriving Interesting Features of Behavior
+
+* First I compile dataframes from different RAs, and then clean it so that the text from each RA matches standard format. 
+
+* I then derive different features of individual and colony-level behaviors, although future analyses in Github will only focus on the former. 
+
+* For instance, I can determine path lengths by tracking the trajectories of different ants (color) in the foraging arena:
+
+![](/Images/antPaths.png)
+
+* I can also measure where in the nest an ant performs different tasks (color): 
+
+![](/Images/taskLocation.png)
+
+* Ultimatly I derive 60+ features from 2 raw data points: task and location of task performance. 
