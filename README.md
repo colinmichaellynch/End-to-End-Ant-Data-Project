@@ -4,7 +4,7 @@ Contains Project for Collecting, Cleaning, and Analyzing Ant Behavior Data
 ## Index
 
 * Supporting Documentation
-  - [Biological Background](https://github.com/colinmichaellynch/Supporting_Documentation/Colin_Prospectus.docx) (Ph.D. Propspectus) 
+  - [Biological Background](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Supporting%20Documentation/Colin%20Prospectus.docx) (Ph.D. Propspectus) 
   - Optimizing Methods for Sampling Behavior (Unpublished Paper)
 * Part 1: Data Collection Optimization for Categorical Time Series 
   - Estimating Sample Size 
