@@ -11,8 +11,8 @@ Contains Project for Collecting, Cleaning, and Analyzing Ant Behavior Data
   - Finding the Number of Sampling Segments
   - Validation with Simulation 
 * Part 2: Designing User-Interface for Collecting Data
-  -Splice Video into Optimal Number of Segments
-  -MATLAB Application for Collecting Spatial/Behavioral Data
+  - Splice Video into Optimal Number of Segments
+  - MATLAB Application for Collecting Spatial/Behavioral Data
 * Part 3: Hypothesis-Based and Unsupervised Machine Learning Analysis
   - Linear Models for Hypothesis Testing
   - Clustering Algorithms Define Ant Archetypes 
