@@ -18,11 +18,37 @@ Division of labor is unlikely to be the only behavioral pattern underlying metab
 
 * I remove variables that are 95% correlated with one another. 
 
-* I perform 5-fold cross validation over a grid search of hyperparameters (where I maximize silhouette score) for 4 different clustering models: k-means clustering algorithm, hierarchical clustering algorithm, DBSCAN, and a Guassian Mixture model. 
+* I perform 5-fold cross validation over a grid search of hyperparameters (where I maximize silhouette score) for 4 different clustering models: k-means clustering algorithm, hierarchical clustering algorithm, DBSCAN, and a Guassian Mixture model. The following table shows the final silhouette scores for each model: 
 
-| K-Means  | Second Header | K-Means  | Second Header |
+| K-Means  | Hierarchical | DBSCAN  | Guassian Mixture |
 | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| 0.6456  | 0.6289  | -0.0687  | 0.6441 |
 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
+* K-Means has the closest score to 1, so I use this as my clustering algorithm. This algorithm has 3 clusters, shown here across the two principal components of the dataset: 
+
+![](/Images/PCA.png)
+
+* To determine feature importance, I measure the loadings of each behavioral feature on PC 1 and 2 and subset out the 5 features with the highest loading. The two components share 3 important features, so there are 7 features which primarily drive these clusters. They are:
+  - Area covered in foraging arena
+  - Area covered in the nest
+  - Path length while foraging
+  - Path length inside the nest
+  - Number of task switches
+  - Velocity
+  - Number of antennations (communication events)
+
+* Ants within each cluster (or 'archetype') behave differently with respect to each of these behavioral attributes:
+
+![](/Images/importantFeatures.png)
+
+* Ants in cluster 1 tend to minimize all of these features and are generally inactive. Ants in cluster 0 tend to move a lot in the foraging arena. Ants in cluster 2 move a lot in the nest, they move quickly, and they switch between tasks often. The 3 archetypes can be summarized then inactive ants, foragers, and nest workers. 
+
+* The distribution of colony sizes is bimodal, so we categorize colonies as either being large or small to simplify analyses. 
+
+![](/Images/colonySize.png)
+
+* Finally, we look at the distribution of ant archetypes across these two colony sizes (chi-squared = 24.49, p-value < 0.001). 
+
+![](/Images/heatmap.png)
+
+* There are more inactive ants in small colonies, and virtually no nest workers. This means that the more active ants are present in the large colonies, which helps explain why the larger colonies have a higher metabolic rate. Further analysis into these archetypes could yield other insights as well. 
