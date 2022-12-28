@@ -2,7 +2,7 @@
 
 ## Summary
 
-In order to use the sampling technique developed in Part 1, I took behavioral recordings of ants in their nests while also recording metabolism (Prospectus pages 13 - 15). I then spliced the video into 8 segments, and then recombined them to make a new video. Undergraduate research assistants then install a custom-made app onto MATLAB which they then use to record the spatial location of randomly-selected ants (which have a 3-color code painted on their backs), and then later they record the behavior of that ant. Note that the attached scripts will not work without videos, which are too large to upload to Github. 
+In order to use the sampling technique developed in Part 1, I took behavioral recordings of ants in their nests while also recording metabolism ([Prospectus](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Supporting%20Documentation/Colin%20Prospectus.docx) pages 13 - 15). I then spliced the video into 8 segments, and then recombined them to make a new video. Undergraduate research assistants then install a custom-made app onto MATLAB which they then use to record the spatial location of randomly-selected ants (which have a 3-color code painted on their backs), and then later they record the behavior of that ant. Note that the attached scripts will not work without videos, which are too large to upload to Github. 
 
 ### Video Splicing and Data Collection Process 
 
