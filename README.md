@@ -7,12 +7,13 @@ Contains Project for Collecting, Cleaning, and Analyzing Ant Behavior Data
   - [Biological Background](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Supporting%20Documentation/Colin%20Prospectus.docx) (Ph.D. Propspectus) 
   - [Optimizing Methods for Sampling Behavior](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Supporting%20Documentation/How%20to%20effectively%20sample%20to%20estimate%20distributions%20of%20behavioral%20states%20and%20transitions%20in%20social%20insects.docx) (Unpublished Paper)
 * Part 1: Data Collection Optimization for Categorical Time Series 
-  - Estimating Sample Size 
-  - Finding the Number of Sampling Segments
-  - Validation with Simulation 
+  - [Estimating Sample Size](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Part%201/EstimateSampleSize.R) 
+  - [Finding the Number of Sampling Segments](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Part%201/FinalGraphsandAnalyses.R)
+  - [Validation with Simulation](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Part%201/ValidationSimulations.R) 
 * Part 2: Designing User-Interface for Collecting Data
   - Splice Video into Optimal Number of Segments
   - MATLAB Application for Collecting Spatial/Behavioral Data
+  - Derive Higher-Order Features from Raw Data
 * Part 3: Hypothesis-Based and Unsupervised Machine Learning Analysis
   - Linear Models for Hypothesis Testing
   - Clustering Algorithms Define Ant Archetypes 
