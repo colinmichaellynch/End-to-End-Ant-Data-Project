@@ -12,7 +12,7 @@ Contains Project for Collecting, Cleaning, and Analyzing Ant Behavior Data
   - Validation with Simulation 
 * Part 2: Designing User-Interface for Collecting Data
   -Splice Video into Optimal Number of Segments
-  -MATLAB App for Research Assistants to Collect Spatial/Behavioral Data
+  -MATLAB Application for Collecting Spatial/Behavioral Data
 * Part 3: Hypothesis-Based and Unsupervised Machine Learning Analysis
   - Linear Models for Hypothesis Testing
   - Clustering Algorithms Define Ant Archetypes 
@@ -31,5 +31,5 @@ Hello there! My name is Colin Lynch, and I am an animal behavior Ph.D. candidate
 
 ## Acknowledgements
 
-This work could not have been done without the support of some fantastic scientists. I would like to thank Dr. Ioulia Bespalova for providing data I used for optimization and her comments on manuscripts, Dr. Xiaohui Guo for providing behavior videos and metabolic measurments, Dr. Jennifer Fewell and Dr. Ted Pavlic for guidance, Cole Busby for helping to develop the MATLAB application, and my undergraduate research assistants Gailan Khanania, Nathaniel Maslanka, Coleen Furey, Mariah Merriam, Tejaswini Nandakumar, and Emma Siebrandt for collecting data. 
+This work could not have been done without the support of some fantastic scientists. I would like to thank Dr. Ioulia Bespalova for providing data I used for optimization and her comments on manuscripts, Dr. Xiaohui Guo for providing behavior videos and metabolic measurments, Dr. Jennifer Fewell and Dr. Ted Pavlic for guidance, Cole Busby for helping to develop the MATLAB application, and my undergraduate research assistants Gailan Khanania, Nathaniel Maslanka, Coleen Furey, Mariah Merriam, Tejaswini Nandakumar, and Emma Siebrandt for collecting data and managing ant colonies. 
 
