@@ -23,7 +23,7 @@ Hello there! My name is Colin Lynch, and I am an animal behavior Ph.D. candidate
 
 ## Contact Information
 
-| Contact Method |  |
+| Contact Method | URL |
 | --- | --- |
 | Email | cmlynch2@asu.edu |
 | LinkedIn | https://www.linkedin.com/in/colinmichaellynch/ |
