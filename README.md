@@ -11,12 +11,12 @@ Contains Project for Collecting, Cleaning, and Analyzing Ant Behavior Data
   - [Finding the Number of Sampling Segments](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Part%201/FinalGraphsandAnalyses.R)
   - [Validation with Simulation](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Part%201/ValidationSimulations.R) 
 * Part 2: Designing User-Interface for Collecting Data
-  - Splice Video into Optimal Number of Segments
-  - MATLAB Application for Collecting Spatial/Behavioral Data
-  - Derive Higher-Order Features from Raw Data
+  - [Splice Video into Optimal Number of Segments](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Part%202/video_segmenter_marking.m)
+  - [MATLAB Application for Collecting Spatial/Behavioral Data](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Part%202/SpatialPositionMarking.mlapp)
+  - [Derive Higher-Order Features from Raw Data](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Part%202/Compile%20Data/DerivingSpatialBehavioralData.R)
 * Part 3: Hypothesis-Based and Unsupervised Machine Learning Analysis
-  - Linear Models for Hypothesis Testing
-  - Clustering Algorithms Define Ant Archetypes 
+  - [Linear Models for Hypothesis Testing](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Part%202/Compile%20Data/DerivingSpatialBehavioralData.R)
+  - [Clustering Algorithms Define Ant Archetypes](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/blob/main/Part%203/antClustering.py) 
 
 ## Background
 
