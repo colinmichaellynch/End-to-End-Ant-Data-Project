@@ -11,10 +11,6 @@ library(MASS)
 
 ### Correlations among variables for causal map ###
 
-c1 = 0.0002
-c2 = 2000
-c3 = 400
-
 setwd("~/behavioral_sampling/true_final_folder/from Michaela PC/Github")
 dataReal= read.csv("FullRealAntsData95RareConstantSS.csv")
 dataSims = read.csv("FullSimulatedAntsData95RareConstantSS.csv")
