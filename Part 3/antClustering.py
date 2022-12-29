@@ -201,9 +201,9 @@ plt.savefig("plot_contingency_table_seaborn_matplotlib_01.png", bbox_inches='tig
 plt.ylabel('Colony Size')
 plt.show()
 
-n, bins, patches = plt.hist(x=colonySize, bins='auto', color='#0504aa',alpha=1, rwidth=0.85)
+n, bins, patches = plt.hist(x=colonySize, bins='auto', color='#0504aa',alpha=1, rwidth=0.85,density=True)
 plt.xlabel('Colony Size')
-plt.ylabel('Frequency')
+plt.ylabel('Density')
 
 #do multiple types of clustering (k means (centroid based), heirarchial, dbscan (density based), distribution-based (gaussian)), can you compare which is best? max silouhette coef, sse/elbow, min gap statistic. AIC? 
 
