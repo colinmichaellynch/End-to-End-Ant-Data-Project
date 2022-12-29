@@ -20,6 +20,8 @@ In order to use the sampling technique developed in Part 1, I took behavioral re
 
 * After the spatial analysis software outputs a new CSV, the RA opens it and watches the high resolution video. They then record behavior into Excel. 
 
+* The time it took for undergraduates to complete video analyses for each colony was 7 hours on average before we introduced the GUI. This time was reduced to 4 hours after they started using the GUI. RAs also reported less strain as a result of the analysis, indicating that their results could be more accurate. 
+
 ### Deriving Interesting Features of Behavior
 
 * First I compile dataframes from different RAs, and then clean it so that the text from each RA matches standard format. 
