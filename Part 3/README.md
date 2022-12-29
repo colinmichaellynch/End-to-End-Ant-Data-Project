@@ -47,7 +47,7 @@ Division of labor is unlikely to be the only behavioral pattern underlying metab
 
 ![](/Images/histogram.png)
 
-* Finally, we look at the distribution of ant archetypes across these two colony sizes (chi-squared = 24.49, p-value < 0.001). 
+* Finally, we look at the distribution of ant archetypes across these two colony sizes (chi-squared  test, chi-squared = 24.49, p-value < 0.001). 
 
 ![](/Images/heatmap.png)
 
