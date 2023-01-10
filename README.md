@@ -34,15 +34,6 @@ Hello there! My name is Colin Lynch, and I am an animal behavior Ph.D. candidate
 
 * Used a combination of traditional hypothesis testing and machine learning to show that ants in large colonies tend to be less specialized (and are therefore less efficient) and are more active within the nest. This increase in activity likely increases the metabolic rate of large colonies relative to small colonies. 
 
-## Contact Information
-
-| Contact Method | URL |
-| --- | --- |
-| Email | cmlynch2@asu.edu |
-| LinkedIn | https://www.linkedin.com/in/colinmichaellynch/ |
-| Fiverr | https://www.fiverr.com/colinlynch |
-
 ## Acknowledgements
 
 This work could not have been done without the support of some fantastic scientists. I would like to thank Dr. Ioulia Bespalova for providing data I used for optimization and her comments on manuscripts, Dr. Xiaohui Guo for providing behavior videos and metabolic measurments, Dr. Jennifer Fewell and Dr. Ted Pavlic for guidance, Cole Busby for helping to develop the MATLAB application, and my undergraduate research assistants Gailan Khanania, Nathaniel Maslanka, Coleen Furey, Mariah Merriam, Tejaswini Nandakumar, and Emma Siebrandt for collecting data and managing ant colonies. Finally, I would like to thank Michaela Starkey for her advice, assistance with math and programming, and much-needed emotional support! 
-
