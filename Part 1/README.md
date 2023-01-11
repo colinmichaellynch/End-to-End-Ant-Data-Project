@@ -20,7 +20,9 @@ Collecting behavioral data on ants can be a tricky affair, as many subtle featur
 
 * Having 8 segments (I = 8) minimizes the normalized sum of both these types of error for both real ants (panel A) and simulated ants (Panel B). 
 
-![](/Images/optimizationCurves.png)
+<p align="center">
+  <img src=/Images/optimizationCurves.png>
+</p>
 
 * Normally this data would be sampled continuously (I = 1), so I = 8 represents a 57% decrease in the sum of the biases. 
 
