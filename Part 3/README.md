@@ -26,7 +26,9 @@ Division of labor is unlikely to be the only behavioral pattern underlying metab
 
 * K-Means has the closest score to 1, so I use this as my clustering algorithm. This algorithm has 3 clusters, shown here across the two principal components of the dataset: 
 
-![](/Images/PCA.png)
+<p align="center">
+  <img src=/Images/PCA.png>
+</p>
 
 * To determine feature importance, I measure the loadings of each behavioral feature on PC 1 and 2 and subset out the 5 features with the highest loading. The two components share 3 important features, so there are 7 features which primarily drive these clusters. They are:
   - Area covered in foraging arena
@@ -39,16 +41,22 @@ Division of labor is unlikely to be the only behavioral pattern underlying metab
 
 * Ants within each cluster (or 'archetype') behave differently with respect to each of these behavioral attributes:
 
-![](/Images/importantFeatures.png)
+<p align="center">
+  <img src=/Images/importantFeatures.png>
+</p>
 
 * Ants in cluster 1 tend to minimize all of these features and are generally inactive. Ants in cluster 0 tend to move a lot in the foraging arena. Ants in cluster 2 move a lot in the nest, they move quickly, and they switch between tasks often. The 3 archetypes can be summarized then inactive ants, foragers, and nest workers. 
 
 * The distribution of colony sizes is bimodal, so we categorize colonies as either being large or small to simplify analyses. 
 
-![](/Images/histogram.png)
+<p align="center">
+  <img rc=/Images/histogram.png>
+</p>
 
 * Finally, we look at the distribution of ant archetypes across these two colony sizes (chi-squared  test, chi-squared = 24.49, p-value < 0.001). 
 
-![](/Images/heatmap.png)
+<p align="center">
+  <img src=/Images/heatmap.png>
+</p>
 
 * There are more inactive ants in small colonies, and virtually no nest workers. This means that the more active ants are present in the large colonies, which helps explain why the larger colonies have a higher metabolic rate. Further analysis into these archetypes could yield other insights as well. 
