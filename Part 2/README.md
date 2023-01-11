@@ -16,7 +16,9 @@ In order to use the sampling technique developed in Part 1, I took behavioral re
 
 * RA opens spatial analysis and clicks location of focal ant with the following GUI: 
 
-![](/Images/userInterface.png)
+<p align="center">
+  <img src=/Images/userInterface.png>
+</p>
 
 * After the spatial analysis software outputs a new CSV, the RA opens it and watches the high resolution video. They then record behavior into Excel. 
 
@@ -30,10 +32,14 @@ In order to use the sampling technique developed in Part 1, I took behavioral re
 
 * For instance, I can determine path lengths by tracking the trajectories of different ants (color) in the foraging arena:
 
-![](/Images/antPaths.png)
+<p align="center">
+  <img src=/Images/antPaths.png>
+</p>
 
 * I can also measure where in the nest an ant performs different tasks (color): 
 
-![](/Images/taskLocation.png)
+<p align="center">
+  <img src=/Images/taskLocation.png>
+</p>
 
 * Ultimatly I derive 60+ features from 2 raw data points: task and location of task performance. 
