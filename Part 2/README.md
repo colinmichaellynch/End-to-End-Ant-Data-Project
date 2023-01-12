@@ -14,7 +14,7 @@ In order to use the sampling technique developed in Part 1, I took behavioral re
 
 * Segmenter also outputs csv file which will be used as the input of spatial analysis. 
 
-* RA opens spatial analysis and clicks location of focal ant with the following GUI: 
+* RA opens spatial analysis and clicks location of focal ant with the following GUI, which was developed in collaboration with [Cole Busby](https://github.com/ColeBusbyMedTech): 
 
 <p align="center">
   <img src=/Images/userInterface.png>
