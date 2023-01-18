@@ -31,3 +31,5 @@ Collecting behavioral data on ants can be a tricky affair, as many subtle featur
 * Normally this data would be sampled continuously (I = 1), so I = 8 represents a 57% decrease in the sum of the biases. 
 
 * While it will likely be the case that having intermediate values of I will be optimal for most systems, this particular result occurs here because of how underlying data is distributed (Appendices 4 and 6). 
+
+[Part 2](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/tree/main/Part%202)
