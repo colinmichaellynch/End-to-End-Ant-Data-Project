@@ -43,3 +43,5 @@ In order to use the sampling technique developed in Part 1, I took behavioral re
 </p>
 
 * Ultimatly I derive 60+ features from 2 raw data points: task and location of task performance. 
+
+Now we can move onto [Part 3](https://github.com/colinmichaellynch/End-to-End-Ant-Data-Project/tree/main/Part%203)
