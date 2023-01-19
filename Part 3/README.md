@@ -50,7 +50,7 @@ Division of labor is unlikely to be the only behavioral pattern underlying metab
 * The distribution of colony sizes is bimodal, so we categorize colonies as either being large or small to simplify analyses. 
 
 <p align="center">
-  <img rc=/Images/histogram.png>
+  <img src=/Images/histogram.png>
 </p>
 
 * Finally, we look at the distribution of ant archetypes across these two colony sizes (chi-squared  test, chi-squared = 24.49, p-value < 0.001). 
